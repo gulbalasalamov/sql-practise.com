@@ -1,13 +1,15 @@
 ## www.sql-practise.com
 
-This repository is dedicated to students and professionals who would like to brush up and advance their SQL skills. You will find solutions to the exercises given at 
-[SQL-Practise](https://www.sql-practice.com).
+This repository is dedicated to students and professionals who would like to brush up and advance their SQL skills. You will find solutions to the 
+exercises at [SQL-Practise](https://www.sql-practice.com).
 
-I have used PostgreSQL as main Database Management Systems (DBMS) and therefore you may encounter some queries that work in PostgreSQL may not work in other DBMS such as SQL Server or MySQL as some implementations slight vary in syntax. For such cases for example date and time operations I included standart SQL queries as well.
+I have used PostgreSQL as main Database Management Systems (DBMS) and therefore you may encounter some queries that work in PostgreSQL may not work in
+other DBMS such as SQL Server or MySQL as some implementations slight vary in syntax. For such cases, for example, in date and time operations 
+I included standart SQL queries as well.
 
 To effectively practise the queries I populated mockdata using [Mockaroo](www.mockaroo.com) so you can get some output while working locally.
-Note that it is not the same dataset used on the web site, so I suggest you use [www.sql-practise.com](https://www.sql-practice.com) as long as you have internet connection, which is also good
-for tracking your progress.
+Note that it is not the same dataset used on the web site, so I suggest you use [www.sql-practise.com](https://www.sql-practice.com) as long as you have 
+internet connection, which is also good for tracking your progress.
 
 For the convenience and to give quick start, create schemas and insert dataset, you can use the .sql database file shared in the repository
 
@@ -17,11 +19,14 @@ The test contains 50 questions and consists of 3 category:
 - Medium
 - Hard
 
-## Database
-
-You can use the following Entity Relationship Diagram (ERD) to figure out what data to store, the entities, their attributes and also how entities relate to other entities.
+You can use the following Entity Relationship Diagram (ERD) to figure out what data to store, the entities, their attributes and also how entities 
+relate to other entities.
 
 ![erd](https://user-images.githubusercontent.com/19313466/211203253-23f70de3-4786-45aa-8d7f-54fb81525415.png)
+
+## Answers
+
+> Want to help this repository? Feel free to contribute by submitting a custom solution to be added to the questions.
 
 ---
 
