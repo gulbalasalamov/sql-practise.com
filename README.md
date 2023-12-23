@@ -709,3 +709,15 @@ When this expression is used in the ORDER BY clause with the DESC keyword, it ca
 The rest of the records are then sorted in ascending order by the name column.
 */
 ```
+
+11. We need a breakdown for the total amount of admissions each doctor has started each year. Show the doctor_id, doctor_full_name, specialty, year, total_admissions for that year.
+
+```sql
+SELECT d.doctor_id, CONCAT(d.first_name,' ',d.last_name) AS doctor_full_name,
+		 d.specialty,
+       YEAR(a.admission_date) AS selected_year,
+       COUNT(*) AS total_admissions
+FROM admissions a
+LEFT JOIN doctors d ON a.attending_doctor_id = d.doctor_id
+GROUP BY doctor_id, selected_year
+```
