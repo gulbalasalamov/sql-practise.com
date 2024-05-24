@@ -1,3 +1,8 @@
+I have used PostgreSQL as main Database Management Systems (DBMS) and therefore you may encounter some queries that work in PostgreSQL may not work in
+other DBMS such as SQL Server or MySQL as some implementations slight vary in syntax. For such cases, for example, in date and time operations 
+I included standart SQL queries as well.
+
+I populated mockdata using www.mockaroo.com to effectively practise the queries and get some output while working locally. Note that it is not the same large dataset used on the web site, so I suggest you use the web site itself as long as you have internet connection, which is also good for tracking your progress. You may use the northwind.sql database file given in the repository for convenience and a rapid start in creating schemas and inserting datasets.
 
 The northwind test contains 13 questions and consists of 3 category:
 
@@ -8,8 +13,7 @@ The northwind test contains 13 questions and consists of 3 category:
 You can use the following Entity Relationship Diagram (ERD) to figure out what data to store, the entities, their attributes and also how entities 
 relate to other entities.
 
-![erd](![image](https://github.com/gulbalasalamov/sql-practise.com/assets/19313466/1e2022d5-49d1-4931-b39d-838dbe71f2ca)
-)
+![image](https://github.com/gulbalasalamov/sql-practise.com/assets/19313466/c448fe34-44c4-4c12-a6aa-fcbce72aea0d)
 
 ## Answers
 
